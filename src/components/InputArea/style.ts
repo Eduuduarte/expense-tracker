@@ -6,11 +6,8 @@ export const Container = styled.div`
     border-radius: 10px;
     padding: 20px;
     margin-top: 20px;
-
-    form{
-        display: flex;
-        justify-content: space-around;
-    }
+    display: flex;
+    justify-content: space-around;
 
     input {
         padding: 10px;
