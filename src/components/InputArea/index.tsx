@@ -29,7 +29,7 @@ export const InputArea = ({ onAdd }: Props) => {
 
     return (
         <C.Container>
-                <input type='date' name='date' onChange={e => setDateTracker(e.target.value)}/>
+                <input type='date' name='date' onChange={e => setDateTracker(e.target.value)} />
                 <select name='category' onChange={e => setCategoryTracker(e.target.value)}>
                     <option value='food'>Food</option>
                     <option value='rent'>Aluguel</option>
